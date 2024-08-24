@@ -18,8 +18,8 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("", "/home/aaronshahriari/.local/share/dwmblocks/volume.sh", 0, 1) \
-    X("", "/home/aaronshahriari/.local/share/dwmblocks/battery.sh", 20, 2) \
-    X("", "/home/aaronshahriari/.local/share/dwmblocks/date.sh", 60, 0)
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/volume.sh", 0, 1) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/battery.sh", 20, 2) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/date.sh", 60, 0)
 
 #endif  // CONFIG_H
