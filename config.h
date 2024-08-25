@@ -18,11 +18,6 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    // real paths
-    // X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/volume.sh", 0, 1) \
-    // X("", "/home/aaronshahriari/.local/bin/scripts/wmblocks/battery.sh", 20, 2) \
-    // X("", "/home/aaronshahriari/.local/bin/scripts/wmblocks/wifi.sh", 30, 3) \
-    // X("", "/home/aaronshahriari/.local/bin/scripts/wmblocks/date.sh", 60, 0)
     X("", "/home/aaronshahriari/.local/bin/dwmblocks/volume.sh", 0, 1) \
     X("", "/home/aaronshahriari/.local/bin/dwmblocks/battery.sh", 20, 2) \
     X("", "/home/aaronshahriari/.local/bin/dwmblocks/wifi.sh", 30, 3) \
