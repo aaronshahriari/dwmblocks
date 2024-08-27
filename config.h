@@ -18,6 +18,8 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
+    X("", "/home/aaronshahriari/.local/bin/dwmblocks/disk.sh", 15, 7) \
+    X("", "/home/aaronshahriari/.local/bin/dwmblocks/memory.sh", 15, 6) \
     X("", "/home/aaronshahriari/.local/bin/dwmblocks/cpu.sh", 15, 5) \
     X("", "/home/aaronshahriari/.local/bin/dwmblocks/volume.sh", 0, 1) \
     X("", "/home/aaronshahriari/.local/bin/dwmblocks/battery.sh", 20, 2) \
