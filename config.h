@@ -18,13 +18,13 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/music/now_playing.sh", 1, 8) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/disk.sh", 15, 7) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/memory.sh", 15, 6) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/cpu.sh", 15, 5) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/volume.sh", 0, 1) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/battery.sh", 20, 2) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/wifi.sh", 30, 3) \
-    X("", "/home/aaronshahriari/.local/bin/dwmblocks/date.sh", 1, 4)
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/music/now_playing.sh", 1, 8) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/disk.sh", 15, 7) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/memory.sh", 15, 6) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/cpu.sh", 15, 5) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/volume.sh", 0, 1) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/battery.sh", 20, 2) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/wifi.sh", 30, 3) \
+    X("", "/home/aaronshahriari/.local/bin/scripts/dwmblocks/date.sh", 1, 4)
 
 #endif  // CONFIG_H
