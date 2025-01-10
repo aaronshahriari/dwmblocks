@@ -26,6 +26,6 @@
     X("", "$HOME/.local/bin/scripts/dwmblocks/battery.sh", 20, 2) \
     X("", "$HOME/.local/bin/scripts/dwmblocks/wifi.sh", 30, 3) \
     X("", "$HOME/.local/bin/scripts/dwmblocks/date.sh", 1, 4)
-    X("", "$HOME/.local/bin/scripts/dwmblocks/power-button.sh", 0, 9)
+    /*X("", "$HOME/.local/bin/scripts/dwmblocks/power-button.sh", 0, 9)*/
 
 #endif  // CONFIG_H
